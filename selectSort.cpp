@@ -2,9 +2,9 @@
 #include <iostream>
 #include <algorithm>
 
-// selectSort::selectSort(){std::cout<<"construct select"<<std::endl;}
+selectSort::selectSort(){std::cout<<"selectSort constructor"<<std::endl;}
 
-// selectSort::~selectSort(){std::cout<<"desctruct select"<<std::endl;}
+selectSort::~selectSort(){std::cout<<"selectSort desctructor"<<std::endl;}
 
 std::vector<int> selectSort::sort(std::vector<int> nums){
     for(int i = 0;i < nums.size() - 1;i++){
