@@ -1,5 +1,6 @@
 #include "selectSort.h"
 #include "insertSort.h"
+#include "quickSort.h"
 #include <iostream>
 #include <memory>
 
@@ -14,6 +15,11 @@ int main(){
     }
     insertSort insert;
     b = insert.sort(a);
+    for(int i:b){
+        std::cout<<i<<std::endl;
+    }
+    quickSort quick;
+    b = quick.sort(a);
     for(int i:b){
         std::cout<<i<<std::endl;
     }
